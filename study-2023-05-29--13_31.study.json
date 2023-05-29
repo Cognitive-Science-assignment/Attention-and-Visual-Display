@@ -1,0 +1,429 @@
+{
+  "components": {
+    "1": {
+      "id": "1",
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "content": "Welcome to the second experiment on attention and visual display. In this experiment, you will be presented with a series of random number sequences. Your task is to remember the sequence and answer questions based on the information provided. Please carefully read the instructions",
+          "title": " Attention and Visual Display"
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Introduction"
+    },
+    "2": {
+      "id": "2",
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Instruction",
+          "content": "You will hear a series of numbers being read aloud.\nIn each run, the presentation of the numbers will be different.\nPay close attention to the presentation method used in each run.\nAfter each run, you will be asked questions related to the sequence.\nSelect the correct answers based on your memory of the sequence.\nExample:\n\nFor example, if you hear the numbers \"2, 6, 4, 1,\" and the question asks for the third number in the sequence, you should select the answer \"4.\"\n\nPlease make sure you are in a quiet and distraction-free environment before proceeding with the experiment. Take your time and do your best to remember the sequences accurately.\n\nIf you have any questions, please ask the experimenter before starting the experiment.\n\nThank you for your participation!"
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Instruction"
+    },
+    "10": {
+      "id": "10",
+      "type": "lab.html.Frame",
+      "context": "<main data-labjs-section=\"frame\">\n  <!-- Content gets inserted here -->\n  <iframe width=\"560\" height=\"315\" src=\"https://youtu.be/9qYaubiHRjE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</main>",
+      "contextSelector": "[data-labjs-section=\"frame\"]",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Number Display",
+      "children": [
+        "11"
+      ]
+    },
+    "11": {
+      "id": "11",
+      "type": "lab.html.Form",
+      "content": "<form>\n  <h4>Question 1:</h4>\n  <p>What is the third number in the sequence?</p>\n  <input type=\"number\" name=\"variable1\">\n  <br><br>\n\n  <h4>Question 2:</h4>\n  <p>What is the fifth number in the sequence?</p>\n  <input type=\"number\" name=\"variable2\">\n  <br><br>\n\n  <h4>Question 3:</h4>\n  <p>What is the second-to-last number in the sequence?</p>\n  <input type=\"number\" name=\"variable3\">\n  <br><br>\n\n  <button type=\"submit\">Submit</button>\n</form>\n",
+      "scrollTop": true,
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Number Display Form"
+    },
+    "12": {
+      "id": "12",
+      "type": "lab.html.Frame",
+      "context": "<main data-labjs-section=\"frame\">\n  <!-- Content gets inserted here -->\n  <iframe width=\"560\" height=\"315\" src=\"https://youtu.be/9qYaubiHRjE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</main>",
+      "contextSelector": "[data-labjs-section=\"frame\"]",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Number Spelling Display",
+      "children": [
+        "13"
+      ]
+    },
+    "13": {
+      "id": "13",
+      "type": "lab.html.Form",
+      "content": "<form>\n  <h4>Question 1:</h4>\n  <p>What is the third number in the sequence?</p>\n  <input type=\"number\" name=\"variable1\">\n  <br><br>\n\n  <h4>Question 2:</h4>\n  <p>What is the fifth number in the sequence?</p>\n  <input type=\"number\" name=\"variable2\">\n  <br><br>\n\n  <h4>Question 3:</h4>\n  <p>What is the second-to-last number in the sequence?</p>\n  <input type=\"number\" name=\"variable3\">\n  <br><br>\n\n  <button type=\"submit\">Submit</button>\n</form>\n",
+      "scrollTop": true,
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Number Spelling Form"
+    },
+    "14": {
+      "id": "14",
+      "type": "lab.html.Frame",
+      "context": "<main data-labjs-section=\"frame\">\n  <!-- Content gets inserted here -->\n  <iframe width=\"560\" height=\"315\" src=\"https://youtu.be/9qYaubiHRjE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</main>",
+      "contextSelector": "[data-labjs-section=\"frame\"]",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Colour Display",
+      "children": [
+        "15"
+      ]
+    },
+    "15": {
+      "id": "15",
+      "type": "lab.html.Form",
+      "content": "<form>\n  <h4>Question 1:</h4>\n  <p>What is the third number in the sequence?</p>\n  <input type=\"number\" name=\"variable1\">\n  <br><br>\n\n  <h4>Question 2:</h4>\n  <p>What is the fifth number in the sequence?</p>\n  <input type=\"number\" name=\"variable2\">\n  <br><br>\n\n  <h4>Question 3:</h4>\n  <p>What is the second-to-last number in the sequence?</p>\n  <input type=\"number\" name=\"variable3\">\n  <br><br>\n\n  <button type=\"submit\">Submit</button>\n</form>\n",
+      "scrollTop": true,
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Colour Form"
+    },
+    "16": {
+      "id": "16",
+      "type": "lab.html.Frame",
+      "context": "<main data-labjs-section=\"frame\">\n  <!-- Content gets inserted here -->\n  <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9qYaubiHRjE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</main>",
+      "contextSelector": "[data-labjs-section=\"frame\"]",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Gameplay Display",
+      "children": [
+        "17"
+      ]
+    },
+    "17": {
+      "id": "17",
+      "type": "lab.html.Form",
+      "content": "<form>\n  <h4>Question 1:</h4>\n  <p>What is the third number in the sequence?</p>\n  <input type=\"number\" name=\"variable1\">\n  <br><br>\n\n  <h4>Question 2:</h4>\n  <p>What is the fifth number in the sequence?</p>\n  <input type=\"number\" name=\"variable2\">\n  <br><br>\n\n  <h4>Question 3:</h4>\n  <p>What is the second-to-last number in the sequence?</p>\n  <input type=\"number\" name=\"variable3\">\n  <br><br>\n\n  <button type=\"submit\">Submit</button>\n</form>\n",
+      "scrollTop": true,
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Gameplay Form",
+      "_tab": "Behavior"
+    },
+    "18": {
+      "id": "18",
+      "type": "lab.html.Frame",
+      "context": "<main data-labjs-section=\"frame\">\n  <h1>Experiment 2: Attention and Visual Display</h1>\n  <h2>Results</h2>\n\n  <h3>Thank you for participating!</h3>\n  <p>We appreciate your time and effort in completing the experiment.</p>\n\n  <h3>Question 1:</h3>\n  <p>Accuracy: <span id=\"accuracy1\"></span>%</p>\n\n  <h3>Question 2:</h3>\n  <p>Accuracy: <span id=\"accuracy2\"></span>%</p>\n\n  <h3>Question 3:</h3>\n  <p>Accuracy: <span id=\"accuracy3\"></span>%</p>\n\n  <script>\n    // Assuming you have the participant's responses stored in variables\n    var response1 = 7; // Example response for Question 1\n    var response2 = 12; // Example response for Question 2\n    var response3 = 9; // Example response for Question 3\n\n    // Assuming you have the correct answers stored in variables\n    var answer1 = 7; // Example correct answer for Question 1\n    var answer2 = 14; // Example correct answer for Question 2\n    var answer3 = 9; // Example correct answer for Question 3\n\n    // Calculate accuracy percentage for each question\n    var accuracy1 = (response1 === answer1) ? 100 : 0;\n    var accuracy2 = (response2 === answer2) ? 100 : 0;\n    var accuracy3 = (response3 === answer3) ? 100 : 0;\n\n    // Display accuracy percentages\n    document.getElementById('accuracy1').textContent = accuracy1;\n    document.getElementById('accuracy2').textContent = accuracy2;\n    document.getElementById('accuracy3').textContent = accuracy3;\n  </script>\n</main>\n",
+      "contextSelector": "[data-labjs-section=\"frame\"]",
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Frame"
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "1",
+        "2",
+        "10",
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "parameters": [],
+      "plugins": [
+        {
+          "type": "lab.plugins.Metadata"
+        }
+      ],
+      "metadata": {
+        "title": "",
+        "description": "",
+        "repository": "",
+        "contributors": ""
+      }
+    }
+  },
+  "version": [
+    20,
+    2,
+    4
+  ],
+  "files": {
+    "files": {
+      "index.html": {
+        "content": "data:text/html,%3C!doctype%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Ctitle%3EExperiment%3C%2Ftitle%3E%0A%20%20%3C!--%20viewport%20setup%20--%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0A%20%20%3C!--%20lab.js%20library%20and%20experiment%20code%20--%3E%0A%20%20%24%7B%20header%20%7D%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3C!--%20If%20you'd%20rather%20have%20a%20container%20with%20a%20fixed%20width%0A%20%20%20%20%20%20%20and%20variable%20height%2C%20try%20removing%20the%20fullscreen%20class%20below%20--%3E%0A%20%20%3Cdiv%20class%3D%22container%20fullscreen%22%20data-labjs-section%3D%22main%22%3E%0A%20%20%20%20%3Cmain%20class%3D%22content-vertical-center%20content-horizontal-center%22%3E%0A%20%20%20%20%20%20%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%3Ch2%3ELoading%20Experiment%3C%2Fh2%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThe%20experiment%20is%20loading%20and%20should%20start%20in%20a%20few%20seconds%3C%2Fp%3E%0A%20%20%20%20%20%20%3C%2Fdiv%3E%0A%20%20%20%20%3C%2Fmain%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E%0A",
+        "source": "library"
+      },
+      "style.css": {
+        "content": "data:text/css,%2F*%20Please%20define%20your%20custom%20styles%20here%20*%2F",
+        "source": "library"
+      }
+    },
+    "bundledFiles": {
+      "lib/lab.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.fallback.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js": {
+        "type": "application/javascript"
+      },
+      "lib/lab.legacy.js.map": {
+        "type": "text/plain"
+      },
+      "lib/lab.css": {
+        "type": "text/css"
+      },
+      "lib/loading.svg": {
+        "type": "image/svg+xml"
+      }
+    }
+  }
+}
